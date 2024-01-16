@@ -12,12 +12,47 @@
 }
 /* CONTAINER BASE */
 
+
 .row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 /* FLEX-ROW */
+
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: end;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+/* REGOLE JUSTIFY */
+
+
+.align-it-center{
+    align-items: center;
+}
+
+.align-it-end{
+    align-items: flex-end;
+}
+
+.align-it-start{
+    align-items: flex-start;
+}
+/* REGOLE ALIGN-ITEMS */
+
+
+[class*="col-"]{
+    flex: 0 0 auto;
+}
+/* REGOLA GENERICA PER LE COLONNE */
 
 
 /* COLONNE SUDDIVISE IN 12 */
@@ -131,5 +166,11 @@
 .offset-12{
     margin-left: calc(100% / 12 * 12);
 }
+
+/********** COLONNE IN RESPONSIVE **********/
+
+/* MEDIA QUERY */
+
+
 
 
