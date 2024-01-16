@@ -1,0 +1,21 @@
+.container{
+    max-width: 100%;
+}
+/* DIMENSIONE CONTAINER */
+
+[class*="col-"]{
+    height: 70px;
+}
+
+
+.bg-blue{
+    background-color: #006DFA;
+    color: white;
+    border: 1px solid white;
+}
+
+.bg-green{
+    background-color: #01E165;
+    color: white;
+    border: 1px solid blue;
+}
