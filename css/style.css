@@ -4,7 +4,7 @@
 /* DIMENSIONE CONTAINER */
 
 [class*="col-"]{
-    height: 70px;
+    min-height: 70px;
 }
 
 
@@ -17,5 +17,13 @@
 .bg-green{
     background-color: #01E165;
     color: white;
-    border: 1px solid blue;
+    border: 1px solid #006DFA;
+}
+
+.padd{
+    padding: 20px;
+}
+
+.mg-b30{
+    margin-bottom: 30px;
 }
