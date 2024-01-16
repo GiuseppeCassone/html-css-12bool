@@ -20,6 +20,12 @@
 }
 /* FLEX-ROW */
 
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* FLEX-COLUMN */
 
 .justify-center{
     justify-content: center;
@@ -31,6 +37,14 @@
 
 .justify-start{
     justify-content: flex-start;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
 }
 /* REGOLE JUSTIFY */
 
